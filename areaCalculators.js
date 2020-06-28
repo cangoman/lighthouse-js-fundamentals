@@ -6,10 +6,10 @@ function calculateRectangleArea(length, width) {
 }
 
 function calculateTriangleArea( base, height) {
-  if (length < 0 || width < 0) {
+  if (base < 0 || height < 0) {
     return undefined;
   }
-  return length * width / 2;
+  return base * height / 2;
 }
 
 function calculateCircleArea(radius) {
